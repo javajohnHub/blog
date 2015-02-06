@@ -9,14 +9,14 @@
 
                     <div class="panel-body">
                         <address>
-                            <strong>John Edwards</strong><br>
-                            Toledo, Ohio<br>
-                            (419) 480-9767
+                            <strong>Blogger Person</strong><br>
+                            Internet<br>
+                            (555) 555-5555
                         </address>
 
                         <address>
                             <strong>Email</strong><br>
-                            <a href="mailto:joedw1978@gmail.com">joedw1978@gmail.com</a>
+                            <a href="mailto:#">email@email.com</a>
                         </address>
                     </div>
                 </div>
