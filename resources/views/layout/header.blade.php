@@ -6,6 +6,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/">John Edwards</a>
         </div>
@@ -16,6 +17,7 @@
                 <li><a href="/about">About</a></li>
                 <li><a href="/contact">Contact</a></li>
                 <li><a href="/articles">Articles</a></li>
+                <li><a href="/articles/create">Create Post</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
