@@ -3,7 +3,12 @@
 @section('content')
     <div class="container">
         <div class="row">
-           <h1>Write New Article</h1>
+            <div class="col-md-10 col-md-offset-1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2>Write New Articles</h2>
+                    </div>
+                    <div class="panel-body">
 
             {!! Form::open(['url' => 'articles']) !!}
                 <div class="form-group">
@@ -28,5 +33,8 @@
 
             {!! Form::close() !!}
         </div>
+    </div>
+    </div>
+    </div>
     </div>
 @endsection
