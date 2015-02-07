@@ -3,7 +3,7 @@
 use App\Article;
 use App\Http\Requests;
 use Carbon\Carbon;
-use Request;
+
 class ArticlesController extends Controller {
 
 
@@ -21,9 +21,9 @@ class ArticlesController extends Controller {
 
     }
 
-    public function store() {
+    public function store(CreateArticleRequest $request) {
 
-        Article::create(Request::all());
+        Article::create($request->all());
 
         return redirect('articles');
 
@@ -33,8 +33,6 @@ class ArticlesController extends Controller {
 
         $article = Article::findOrfail($id);
 
-
-        dd($article->published_at);
         return view('articles/show',compact('article'));
     }
 
