@@ -2,7 +2,8 @@
 
 use App\Article;
 use App\Http\Requests;
-use Carbon\Carbon;
+use App\Http\Requests\CreateArticleRequest;
+use Illuminate\HttpResponse;
 
 class ArticlesController extends Controller {
 
