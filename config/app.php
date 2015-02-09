@@ -137,6 +137,7 @@ return [
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Html\HtmlServiceProvider',
 
+
 		/*
 		 * Application Service Providers...
 		 */
@@ -196,6 +197,7 @@ return [
 		'Form'      => 'Illuminate\Html\FormFacade',
 		'Html'      => 'Illuminate\Html\HtmlFacade',
 		'Carbon'    => 'Carbon\Carbon',
+		'Builder'   => 'Illuminate\Database\Eloquent\Builder',
 
 	],
 

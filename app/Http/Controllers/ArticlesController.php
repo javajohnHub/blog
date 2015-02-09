@@ -4,7 +4,7 @@ use App\Article;
 use App\Http\Requests;
 use App\Http\Requests\CreateArticleRequest;
 use Illuminate\HttpResponse;
-
+use Illuminate\Support\Facades\Request;
 class ArticlesController extends Controller {
 
 
@@ -35,6 +35,20 @@ class ArticlesController extends Controller {
         $article = Article::findOrfail($id);
 
         return view('articles/show',compact('article'));
+    }
+
+    public function edit($id){
+
+    $article = Article::findOrFail($id);
+    return view('articles.edit', compact('article'));
+    }
+
+    public function update($id, Request $request){
+
+        $article = Article::findOrFail($id);
+        $article->update($request->all());
+
+        return redirect('articles');
     }
 
 }
